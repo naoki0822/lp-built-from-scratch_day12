@@ -42,7 +42,7 @@ li {
 }
 
 .header_logo a {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 800;
   color: #fff;
 }
@@ -56,7 +56,7 @@ li {
 
 .header_top .container nav ul li {
   color: #fff;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -98,8 +98,13 @@ li {
 
 @media (max-width: 768px) {
 
-    .container {
-    width: 90%;
+  .container {
+  width: 90%;
+}
+
+  .header_top .container {
+    gap: 80px;
+  white-space: nowrap;
   }
 
   .fv .container .text h1 {
